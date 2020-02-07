@@ -1,7 +1,7 @@
 <% if logged_in? %>
   <div class="row">
     <aside class="col-sm-4">
-      <%= link_to "タスク・ステータスを投稿する", new_task_path %> 
+      <%= link_to "タスクを投稿する", new_task_path  %> 
     </aside>
     <div class="col-sm-8">
       <%= render 'tasks/tasks', tasks: @tasks %>
